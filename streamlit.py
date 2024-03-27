@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-st.number_input('input number')
+st.number_input('input number',0,10)
 st.title("practice")
 st.text_input('email')
 st.date_input('date')
